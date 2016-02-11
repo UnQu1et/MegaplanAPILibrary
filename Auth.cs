@@ -1,21 +1,10 @@
-﻿/*
- * Created by SharpDevelop.
- * User: Дмитрий
- * Date: 05.10.2015
- * Time: 15:50
- * 
- * To change this template use Tools | Options | Coding | Edit Standard Headers.
- */
-using System;
+﻿using System;
 using System.Net;
 using Newtonsoft.Json.Linq;
 using System.Text.RegularExpressions;
 
 namespace MegaplanAPILibrary
 {
-	/// <summary>
-	/// Description of LoginClass.
-	/// </summary>
 	public static class Auth
 	{
         public static string host { get; set; }
@@ -39,7 +28,7 @@ namespace MegaplanAPILibrary
                     host = Host;
                 }
             }
-            catch (Exception ex)
+            catch
             {
                 return false;
             }

@@ -1,24 +1,11 @@
-﻿/*
- * Created by SharpDevelop.
- * User: Дмитрий
- * Date: 05.10.2015
- * Time: 16:27
- * 
- * To change this template use Tools | Options | Coding | Edit Standard Headers.
- */
-using System;
+﻿using System;
 using System.Net;
 using System.IO;
 using MegaplanAPILibrary.Helpers;
 using Newtonsoft.Json;
-using Newtonsoft.Json.Linq;
-using Newtonsoft.Json.Converters;
 
 namespace MegaplanAPILibrary.Base
 {
-	/// <summary>
-	/// Description of BaseRequestResponse.
-	/// </summary>
 	public abstract class BaseRequestResponse<T1, T2, T3> where T1 : BaseRequest<T3> where T2 : BaseResponse
 	{
 		private static bool IgnoreCertificateErrorHandler(object sender,System.Security.Cryptography.X509Certificates.X509Certificate cert,System.Security.Cryptography.X509Certificates.X509Chain chain, System.Net.Security.SslPolicyErrors sslErr)

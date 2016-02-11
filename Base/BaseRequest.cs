@@ -1,20 +1,8 @@
-﻿/*
- * Created by SharpDevelop.
- * User: Дмитрий
- * Date: 05.10.2015
- * Time: 16:26
- * 
- * To change this template use Tools | Options | Coding | Edit Standard Headers.
- */
-using System;
-using System.ComponentModel;
+﻿using System;
 using System.Reflection;
 
 namespace MegaplanAPILibrary.Base
 {
-    /// <summary>
-    /// Description of Class1.
-    /// </summary>
     public abstract class BaseRequest<T1>
 	{
 		public abstract string Uri { get; }

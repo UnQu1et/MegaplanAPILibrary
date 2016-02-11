@@ -1,21 +1,9 @@
-﻿/*
- * Created by SharpDevelop.
- * User: Дмитрий
- * Date: 07.10.2015
- * Time: 13:29
- * 
- * To change this template use Tools | Options | Coding | Edit Standard Headers.
- */
-using System;
-using MegaplanAPILibrary.Base;
+﻿using System;
 using Newtonsoft.Json;
 using Newtonsoft.Json.Linq;
 
 namespace MegaplanAPILibrary.ApiClasses
 {
-	/// <summary>
-	/// Description of UnreadNotifications.
-	/// </summary>
     [JsonConverter(typeof(NotificationConverter))]
 	public class Notification
 	{

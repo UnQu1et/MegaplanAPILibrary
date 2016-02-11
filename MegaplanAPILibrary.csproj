@@ -46,8 +46,6 @@
   <ItemGroup>
     <Compile Include="ApiClasses\Notification.cs" />
     <Compile Include="ApiClasses\Talk.cs" />
-    <Compile Include="ApiClasses\UnreadNotifications.cs" />
-    <Compile Include="ApiMethods\DeactivateNotification.cs" />
     <Compile Include="ApiMethods\GetTalks.cs" />
     <Compile Include="ApiMethods\GetUnreadNotifications.cs" />
     <Compile Include="Auth.cs" />

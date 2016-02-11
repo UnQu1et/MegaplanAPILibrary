@@ -1,20 +1,9 @@
-﻿/*
- * Created by SharpDevelop.
- * User: Дмитрий
- * Date: 06.10.2015
- * Time: 12:22
- * 
- * To change this template use Tools | Options | Coding | Edit Standard Headers.
- */
-using System;
+﻿using System;
 using System.Text;
 using System.Security.Cryptography;
 
 namespace MegaplanAPILibrary.Helpers
 {
-	/// <summary>
-	/// Description of SecurityHelper.
-	/// </summary>
 	public static class SecurityHelper
 	{
 		public static String GetMD5Hash(string value)

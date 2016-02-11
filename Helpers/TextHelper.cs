@@ -1,19 +1,7 @@
-﻿/*
- * Created by SharpDevelop.
- * User: Дмитрий
- * Date: 08.10.2015
- * Time: 19:01
- * 
- * To change this template use Tools | Options | Coding | Edit Standard Headers.
- */
-using System;
-using System.Security.Cryptography.X509Certificates;
+﻿using System;
 
 namespace MegaplanAPILibrary.Helpers
 {
-	/// <summary>
-	/// Description of TextHelper.
-	/// </summary>
 	public static class TextHelper
 	{
 		public static string getSubjectTypeName(string name) {

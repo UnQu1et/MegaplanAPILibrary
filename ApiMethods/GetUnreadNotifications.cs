@@ -1,20 +1,8 @@
-﻿/*
- * Created by SharpDevelop.
- * User: Дмитрий
- * Date: 07.10.2015
- * Time: 14:48
- * 
- * To change this template use Tools | Options | Coding | Edit Standard Headers.
- */
-using System;
-using MegaplanAPILibrary.Base;
+﻿using MegaplanAPILibrary.Base;
 using MegaplanAPILibrary.ApiClasses;
 
 namespace MegaplanAPILibrary.ApiMethods
 {
-	/// <summary>
-	/// Description of GetUnreadNotifications.
-	/// </summary>
 	public class GetUnreadNotifications : BaseRequestResponse<GetUnreadNotificationsRequest, GetUnreadNotificationsResponse, GetUnreadNotificationsRequest.Params>
 	{
 	}
